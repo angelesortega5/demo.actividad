@@ -1,11 +1,32 @@
 package demo.actividad;
 
 public class Barco {
-	
-	
-	
-	String color = "azulelectrico";
-	int CantidadPasajeros = 1500;
-	Double VelocidadNavegacion = 111.55;
 
+	private String color;
+	private int cantidadPasajeros;
+	private Double velocidadNavegacion;
+
+	public void modificarColor(String parametroColor) {
+		this.color = parametroColor;
+	}
+
+	public String obtenerColor() {
+		return this.color;
+	}
+
+	public void modificarcantidadPasajeros(int parametrocantidadPasajeros) {
+		this.cantidadPasajeros = parametrocantidadPasajeros;
+	}
+
+	public int obtenerCantidadPasajeros() {
+		return this.cantidadPasajeros;
+	}
+
+	public void modificarvelocidadNavegacion(double velocidadNavegacion) {
+		this.velocidadNavegacion = velocidadNavegacion;
+	}
+
+	public double obtenervelocidadNavegacion() {
+		return this.velocidadNavegacion;
+	}
 }
