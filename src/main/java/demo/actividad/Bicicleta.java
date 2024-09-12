@@ -2,7 +2,34 @@ package demo.actividad;
 
 public class Bicicleta {
 
-	String tipo = "electrica";
-	int cantidadLLantas = 2;
-	Double medidaRin = 27.5;
+	private String tipo;
+	private int cantidadLLantas;
+	private Double medidaRin;
+
+	public String obtenertipo() {
+		return this.tipo;
+	}
+
+	public void modificarTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	public void modificarcantidadLLantas(int cantidadLLantas) {
+		this.cantidadLLantas = cantidadLLantas;
+
+	}
+
+	public int obtenercantidadLLantas() {
+		return this.cantidadLLantas;
+	}
+
+	public void modificarmedidaRin(Double medidaRin) {
+		this.medidaRin = medidaRin;
+
+	}
+
+	public Double obtenermedidaRin() {
+		return this.medidaRin;
+	}
+
 }

@@ -26,7 +26,8 @@ public class Barco {
 		this.velocidadNavegacion = velocidadNavegacion;
 	}
 
-	public double obtenervelocidadNavegacion() {
+	public Double obtenervelocidadNavegacion() {
 		return this.velocidadNavegacion;
 	}
 }
+
