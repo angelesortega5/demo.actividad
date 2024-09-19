@@ -22,8 +22,12 @@ public class Coche {
 		return this.garantia;
 	}
 
-	public void setCaballosDefuerza(Double caballosDefuerza) {
-		this.caballosDeFuerza = caballosDefuerza;
+	public void setCaballosDefuerza(Double caballosDeFuerza) {
+		this.caballosDeFuerza = caballosDeFuerza;
+	}
+
+	public Double getcaballosDeFuerza() {
+		return this.caballosDeFuerza;
 	}
 
 }
