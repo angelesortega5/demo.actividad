@@ -15,7 +15,8 @@ public class Coche {
 	}
 
 	public void setGarantia(int garantia) {
-	   this.garantia = garantia;
+		this.garantia = garantia;
+	}
 
 	public int getGarantia() {
 		return this.garantia;
@@ -23,10 +24,6 @@ public class Coche {
 
 	public void setCaballosDefuerza(Double caballosDefuerza) {
 		this.caballosDeFuerza = caballosDefuerza;
-
 	}
 
-	public Double getcaballosDefuerza() {
-		return this.caballosDeFuerza;
-	}
 }

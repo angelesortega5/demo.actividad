@@ -1,9 +1,33 @@
 package demo.actividad;
 
 public class Factura {
-	
-	String nombre = "facturadetv";
-	int cuotaDeIva = 21;
-	Double precio = 225.99;
+
+	private String nombre;
+	private int cuotaDeIva;
+	private Double precio;
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getNombre() {
+		return this.nombre;
+	}
+
+	public void setCuotaDeIva(int cuotaDeIva) {
+		this.cuotaDeIva = cuotaDeIva;
+	}
+
+	public int getCuotaDeIva() {
+		return this.cuotaDeIva;
+	}
+
+	public void setprecio(Double precio) {
+		this.precio = precio;
+	}
+
+	public Double getprecio() {
+		return this.precio;
+	}
 
 }
